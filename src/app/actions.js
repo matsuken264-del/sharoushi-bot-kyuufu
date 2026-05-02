@@ -16,23 +16,23 @@ const genAI = new GoogleGenerativeAI(API_KEY);
 const knowledgeBaseFiles = [
   // 例: { uri: "...", mimeType: "..." },
   // ↓↓↓ ここに貼り付け ↓↓↓
-   { uri: "https://generativelanguage.googleapis.com/v1beta/files/zxgqa8tbw6l0", mimeType: "application/pdf" }, // 0000147413.pdf
-  { uri: "https://generativelanguage.googleapis.com/v1beta/files/kviff43fkijw", mimeType: "application/pdf" }, // 000995403.pdf
-  { uri: "https://generativelanguage.googleapis.com/v1beta/files/v3zqux5hbmfh", mimeType: "application/pdf" }, // 001239112.pdf
-  { uri: "https://generativelanguage.googleapis.com/v1beta/files/fwywohw9arf0", mimeType: "application/pdf" }, // 001389426.pdf
-  { uri: "https://generativelanguage.googleapis.com/v1beta/files/17qhg44p1bxk", mimeType: "application/pdf" }, // 001429948.pdf
-  { uri: "https://generativelanguage.googleapis.com/v1beta/files/xdeq0x5rqni3", mimeType: "application/pdf" }, // 001467598.pdf
-  { uri: "https://generativelanguage.googleapis.com/v1beta/files/cpenfchk2a55", mimeType: "application/pdf" }, // 001467599.pdf
-  { uri: "https://generativelanguage.googleapis.com/v1beta/files/6f9y3ykgktab", mimeType: "application/pdf" }, // 001467600.pdf
-  { uri: "https://generativelanguage.googleapis.com/v1beta/files/m9edxwkjwsvv", mimeType: "application/pdf" }, // 001467601.pdf
-  { uri: "https://generativelanguage.googleapis.com/v1beta/files/o9oc57e07wn0", mimeType: "application/pdf" }, // 001467602.pdf
-  { uri: "https://generativelanguage.googleapis.com/v1beta/files/oleyk2hxvh4z", mimeType: "application/pdf" }, // 001467604.pdf
-  { uri: "https://generativelanguage.googleapis.com/v1beta/files/504zym3jyfty", mimeType: "application/pdf" }, // 001467605.pdf
-  { uri: "https://generativelanguage.googleapis.com/v1beta/files/klw1ckqaw498", mimeType: "application/pdf" }, // 001543278.pdf
-  { uri: "https://generativelanguage.googleapis.com/v1beta/files/5t92k9zb6ku1", mimeType: "application/pdf" }, // 001623778.pdf
-  { uri: "https://generativelanguage.googleapis.com/v1beta/files/wms4rxcxs1ms", mimeType: "application/pdf" }, // kyouiku_kyufu.pdf
-  { uri: "https://generativelanguage.googleapis.com/v1beta/files/4y143vjnet88", mimeType: "application/pdf" }, // senmonjissenkyouikukunrennokyuuhunogoannai.pdf
-  { uri: "https://generativelanguage.googleapis.com/v1beta/files/ma3zxz51zgmk", mimeType: "application/pdf" }, // tokutei_ippan.pdf
+   { uri: "https://generativelanguage.googleapis.com/v1beta/files/x0bxy7dex2c7", mimeType: "application/pdf" }, // 0000147413.pdf
+  { uri: "https://generativelanguage.googleapis.com/v1beta/files/04gtpfwre6rz", mimeType: "application/pdf" }, // 000995403.pdf
+  { uri: "https://generativelanguage.googleapis.com/v1beta/files/sp835580qq74", mimeType: "application/pdf" }, // 001239112.pdf
+  { uri: "https://generativelanguage.googleapis.com/v1beta/files/l88r2nckaaj8", mimeType: "application/pdf" }, // 001389426.pdf
+  { uri: "https://generativelanguage.googleapis.com/v1beta/files/w381sd9ijuj5", mimeType: "application/pdf" }, // 001429948.pdf
+  { uri: "https://generativelanguage.googleapis.com/v1beta/files/wx21yk00axjd", mimeType: "application/pdf" }, // 001467598.pdf
+  { uri: "https://generativelanguage.googleapis.com/v1beta/files/tiwtxlqcwk77", mimeType: "application/pdf" }, // 001467599.pdf
+  { uri: "https://generativelanguage.googleapis.com/v1beta/files/edff5322hxvh", mimeType: "application/pdf" }, // 001467600.pdf
+  { uri: "https://generativelanguage.googleapis.com/v1beta/files/kk7nqyyfl9o0", mimeType: "application/pdf" }, // 001467601.pdf
+  { uri: "https://generativelanguage.googleapis.com/v1beta/files/y6vzrgadlskv", mimeType: "application/pdf" }, // 001467602.pdf
+  { uri: "https://generativelanguage.googleapis.com/v1beta/files/olhiq2hc4a1q", mimeType: "application/pdf" }, // 001467604.pdf
+  { uri: "https://generativelanguage.googleapis.com/v1beta/files/jv18jc7q46mr", mimeType: "application/pdf" }, // 001467605.pdf
+  { uri: "https://generativelanguage.googleapis.com/v1beta/files/ypuxka1swd4t", mimeType: "application/pdf" }, // 001543278.pdf
+  { uri: "https://generativelanguage.googleapis.com/v1beta/files/51m3tlgqx8ec", mimeType: "application/pdf" }, // 001623778.pdf
+  { uri: "https://generativelanguage.googleapis.com/v1beta/files/lh8ea0q2sslo", mimeType: "application/pdf" }, // kyouiku_kyufu.pdf
+  { uri: "https://generativelanguage.googleapis.com/v1beta/files/kas1he3v968d", mimeType: "application/pdf" }, // senmonjissenkyouikukunrennokyuuhunogoannai.pdf
+  { uri: "https://generativelanguage.googleapis.com/v1beta/files/5olzkf7mkpil", mimeType: "application/pdf" }, // tokutei_ippan.pdf
 
   // ↑↑↑ ここに貼り付け ↑↑↑
 ]; 
